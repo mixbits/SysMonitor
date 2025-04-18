@@ -599,12 +599,12 @@
             }
 
             .custom-date-input:hover {
-                background-color: #d7cabb; /* Lighter on hover */
+                background-color: #d7cabb;
                 box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
             }
 
             .custom-date-input:active {
-                background-color: #bfb2a2; /* Darker when clicked */
+                background-color: #bfb2a2;
                 box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4) inset;
                 transform: translateY(1px);
             }
@@ -653,7 +653,6 @@
                 background-color: #a17d5d;
             }
 
-            /* Modify layout for date picker container and info */
             .date-picker-container {
                 width: 100% !important;
                 box-sizing: border-box !important;
@@ -666,7 +665,6 @@
                 flex-direction: column !important;
             }
             
-            /* Update for proper center alignment */
             #selected-date-info {
                 position: absolute;
                 left: 0;
@@ -677,7 +675,6 @@
                 z-index: 5;
             }
 
-            /* Base styles apply to all devices */
             .container {
                 width: 100% !important;
                 padding: 5px 15px 2px 15px !important;
@@ -690,10 +687,7 @@
                 overflow: hidden !important;
                 position: relative !important;
             }
-            
-            /* Device-specific styles */
-            
-            /* Mobile-specific styles */
+           
             .mobile-device .app-title {
                 font-size: 16px !important;
                 white-space: normal !important;
@@ -732,7 +726,6 @@
                 min-height: 200px !important;
             }
             
-            /* Tablet-specific styles */
             .tablet-device .app-title {
                 font-size: 18px !important;
             }
@@ -742,14 +735,13 @@
                 min-height: 500px !important;
             }
 
-            /* Additional mobile optimizations for the Plotly graph */
             .mobile-device .graph-container {
                 touch-action: pan-x pan-y !important;
             }
             
             .mobile-device .custom-date-input {
-                height: 48px !important; /* Larger touch target */
-                font-size: 16px !important; /* Prevent iOS zoom on focus */
+                height: 48px !important;
+                font-size: 16px !important;
             }
             
             .mobile-device .date-display {
@@ -757,13 +749,11 @@
                 font-weight: 500 !important;
             }
             
-            /* Ensure the mode bar is usable on mobile */
             .mobile-device .modebar {
                 transform: scale(1.2) !important;
                 transform-origin: top right !important;
             }
             
-            /* Enhance calendar for mobile */
             .mobile-device .calendar-popup {
                 width: 90% !important;
                 max-width: 320px !important;
