@@ -143,6 +143,10 @@ Logs are stored in:
 - `/home/your-username/Documents/SystemMonitor/logs/` (Linux/macOS)
 - Or the equivalent directory on Windows
 
+## Important Notes
+- Make sure port 5500 is open in your firewall
+- Linux web application directory: /home/user/Documents/SystemMonitor/ <!--Replace user with your username-->
+
 ## Troubleshooting
 
 If the application fails to start:
