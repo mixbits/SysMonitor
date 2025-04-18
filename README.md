@@ -145,7 +145,8 @@ Logs are stored in:
 
 ## Important Notes
 - Make sure port 5500 is open in your firewall
-- Linux web application directory: /home/user/Documents/SystemMonitor/ <!--Replace user with your username-->
+- Linux web application directory (replace 'user' with your username): /home/user/Documents/SystemMonitor/
+- Ensure that all instances of 'user' within sysmonitor.py, dashboard.html and logviewer.html are changed to your Linux username
 
 ## Troubleshooting
 
