@@ -1,0 +1,16 @@
+# File directory: /etc/systemd/system/sysmonitor.service
+# Replace 'user' with your actual username
+[Unit]
+Description=System Monitor Web GUI Service
+After=network.target
+
+[Service]
+User=user
+Group=admin
+WorkingDirectory=/home/user/Documents/SystemMonitor
+ExecStart=/home/user/Documents/SystemMonitor/venv/bin/python /home/user/Documents/SystemMonitor/sysmonitor.py
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
