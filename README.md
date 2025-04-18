@@ -2,8 +2,6 @@
 
 A comprehensive system monitoring web application that tracks and visualizes CPU, RAM, network, and GPU usage in real-time.
 
-![System Monitor Screenshot](images/screenshot.png)
-
 ## Overview
 
 SysMonitor provides a browser-based interface for monitoring system resources. The application collects performance metrics from your machine (CPU, RAM, GPU 0, GPU 1, GPU 2 and Network) and presents them in an intuitive dashboard with real-time updates and historical data visualization utilizing Plotly graphs.
